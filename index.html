@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Voorivex Art Gallery</title>
+	<link rel="stylesheet" href="./style.css">
+	<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.css">
+</head>
+<body>
+	<div class="container">
+		<header class="header">
+			<div class="title-section">
+				<h1 class="main-title"><span>Voorivex</span><span class="title-accent">Art Gallery</span></h1>
+			</div>
+		</header>
+
+		<main class="gallery-container">
+			<div class="gallery" id="gallery">
+				<!-- Gallery items will be populated here -->
+			</div>
+		</main>
+	</div>
+
+	<!-- Fullscreen Modal -->
+	<div class="modal" id="modal">
+		<div class="modal-overlay" id="modalOverlay"></div>
+		
+		<button class="modal-close" id="modalClose">&times;</button>
+		
+		<img class="modal-image" id="modalImage" src="" alt="">
+		<div class="modal-caption" id="modalCaption"></div>
+	</div>
+
+	<script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+	<script src="images.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
