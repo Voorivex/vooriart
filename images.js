@@ -6,4 +6,5 @@ const images = [
 	{ src: './images/yashar-sleeping.jpg', alt: 'Yashar is Sleeping...' },
 	{ src: './images/hackers-childhood.jpg', alt: 'Sadra being a Child' },
 	{ src: './images/reading-along-name.jpg', alt: 'Reading a long name is hard. Isn\'t it?' },
+	{ src: './images/sattar-russian.jpg', alt: 'No Italian chicks. Where are the Russian girls?' },
 ];
